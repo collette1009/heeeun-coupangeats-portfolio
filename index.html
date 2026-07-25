@@ -959,6 +959,21 @@
         </div>
 
         <div class="detail-section" style="margin-top: 28px;">
+          <h4>개선 로직 (모형)</h4>
+          <div class="mockup-screen">
+            <div class="mockup-bar"><span class="dot"></span>제휴 골프장 정책 정보 (모형)</div>
+            <div class="mockup-body">
+              <div style="font-size:11.5px;font-weight:700;color:#b23b3b;margin-bottom:8px;letter-spacing:.02em;">BEFORE — 골프장마다 항목 유무·표시 순서가 제각각</div>
+              <div class="mockup-row"><span>A 골프장</span><span style="font-size:11.5px;color:var(--ink-3);text-align:right;">연락처 → 위약금 계좌 → 운영시간 → 취소기한</span></div>
+              <div class="mockup-row"><span>B 골프장</span><span style="font-size:11.5px;color:var(--ink-3);text-align:right;">운영시간 → 동반자 제한 → (연락처 없음) → … → 위약금 계좌</span></div>
+              <div style="font-size:11.5px;font-weight:700;color:#2c7a4b;margin:16px 0 8px;letter-spacing:.02em;">AFTER — 모든 골프장 공통 순서로 표준화</div>
+              <div class="mockup-row"><span>공통 확인 순서</span><span class="mockup-badge ok">①연락처 ②운영시간 ③취소기한 ④위약범위 ⑤계좌 ⑥동반자기준</span></div>
+            </div>
+          </div>
+          <p class="mockup-note">골프장마다 연락처·운영시간 존재 여부가 다르고, 위약금 계좌 위치도 제각각이라 담당자가 매번 전체 정책 문구를 다시 훑어야 했습니다. 담당자가 실제로 자주 확인하는 항목을 모든 골프장에 동일한 순서로 정렬하고, 정보가 없는 항목은 '확인 필요'로 별도 표시해 빈 값도 구분되게 정리했습니다. (실제 어드민 화면이 아닌 개선 로직을 보여주기 위한 모형이며, 골프장명·항목은 예시입니다.)</p>
+        </div>
+
+        <div class="detail-section" style="margin-top: 28px;">
           <h4>Insight</h4>
           <p>· 흩어진 정보는 자동으로 기준이 되지 않습니다. 실제 처리 순서에 맞게 재배열되어야 운영 기준이 됩니다.</p>
           <p>· 정책 표준화는 내용을 하나로 통일하는 일이 아니라, 서로 다른 정책을 같은 방식으로 찾고 판단할 수 있게 만드는 일입니다.</p>
